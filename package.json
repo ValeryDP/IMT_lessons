@@ -1,0 +1,18 @@
+{
+  "name": "nodejs-imt",
+  "version": "1.0.0",
+  "description": "NodeJS learn ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Valery Maslo",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.4.6"
+  }
+}
