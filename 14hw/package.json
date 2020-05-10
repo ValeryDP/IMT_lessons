@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-imt",
+  "version": "1.0.0",
+  "description": "NodeJS learn ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Valery Maslo",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.4.6",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    
+  }
+}
