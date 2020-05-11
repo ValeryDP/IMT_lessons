@@ -20,7 +20,10 @@ const server = http.createServer((req, res) => {
                 })
                 res.end(data)
             })
-    } 
+    } else {
+        res.write('Error')
+        res.end()
+    }
 })
 server.listen(3000, () => {
     console.log('Server at http://localhost:3000');
